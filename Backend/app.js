@@ -7,18 +7,18 @@ require("dotenv").config({
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-
+const cors = require("cors");
 
 const app = express();
 
 // const cors = require("cors");
 
-// app.use(
-//   cors({
-//     origin: "*",
-//     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-//   })
-// );
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  })
+);
 
 // app.use(express.static(path.join(__dirname, "../Frontend/dist")));
 

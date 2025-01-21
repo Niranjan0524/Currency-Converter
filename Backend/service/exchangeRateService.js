@@ -12,7 +12,7 @@ class ExchangeRateService {
     async getRates() {
       const url=`${this.baseUrl}${this.apiKey}/latest/INR`;
 
-      console.log(url);
+      
      
       try {
         const response = await axios.get(url);

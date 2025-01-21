@@ -2,7 +2,7 @@ const exchangeRateService = require("../service/exchangeRateService");
 
 exports.convertCurrency = (req, res) => {
   const { amount, sourceCurrency, targetCurrency } = req.body;
-
+  console.log(amount, sourceCurrency, targetCurrency);
   if (!amount || !sourceCurrency || !targetCurrency) {
      return res
       .status(400)

@@ -1,13 +1,11 @@
-
-import { TodoItemsProvider } from "./store/TodoItemsContext";
+import CurrencyConverter from "./components/currencyConverter";
 
 function App() {
   return (
-    <TodoItemsProvider>
-      <center>
-        
-      </center>
-    </TodoItemsProvider>
+    <center>
+     
+      <CurrencyConverter> </CurrencyConverter>
+    </center>
   );
 }
 
