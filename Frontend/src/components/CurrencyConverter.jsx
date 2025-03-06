@@ -58,7 +58,7 @@ const CurrencyConverter = () => {
       </h2>
       <div className="bg-white p-10 rounded-lg shadow-2xl w-full max-w-md">
         <label className="block text-gray-700 text-sm font-bold mb-2">
-          Amount in USD
+          Enter Amount
         </label>
         <input
           type="number"
